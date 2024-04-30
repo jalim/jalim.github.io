@@ -1,3 +1,8 @@
+---
+layout: post
+title: NUT Configuration
+---
+
 ## NUT Server 1   -  Outlet group 1
 	- Begins Shutdown Sequence after 5 minutes
 	- Talos nodes shutdown immediately
@@ -13,3 +18,5 @@
 
 ## Useful Commands
 `upsc apc@localhost` - Show the status of the APC ups.
+
+`upscmd -u admin -p password apc@localhost load.off` - Turn off the load on the UPS
